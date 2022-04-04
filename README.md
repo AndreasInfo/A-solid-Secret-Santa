@@ -1,10 +1,10 @@
 # A solid Secret Santa
 
-My goal was to create a solid and easy to handle Secret Santa generator. In comparison to existing projects it should be especially able to handle one drawback: **The manual exclusion or forced-connection between two or more participants**. Some additional nice-to-have's would be input forms for budget limitation as well as date and place of the event.
+The goal was to create a solid and easy to handle Secret Santa generator. In comparison to existing projects it should be especially able to handle one drawback: **The manual exclusion or forced-connection between two or more participants**. Some additional nice-to-have's are input forms for budget limitation as well as date and place of the event.
 
-My current version is published on https://apps.handy-solutions.de/a-solid-secret-santa/dist/index.html#/. It runs through all the input steps and sends finally an event containing all the data to my server, which forwards the information for all participants via email.
+The current version is published on https://apps.handy-solutions.de/a-solid-secret-santa/dist/index.html#/. It runs through all the input steps and sends at the end an event containing all the data to a server, which forwards the information for all participants via email.
 
-Some more ideas in my head are:
+Some more ideas to improve the generator are:
 - make the project multilingual
 - offer a wishlist, so your Secret Santa can be informed about your desired presents
 - save events persistent, so one is able to resend the invitations, wishlists etc.
