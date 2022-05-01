@@ -22,3 +22,10 @@ Personally speaking, I don't have time anymore to contribute to the frontend, bu
 Feel free to join or ask/suggest/propose!
 
 For liscence check LISCENCE.md.
+
+### Setup for development
+
+- install dependencies: **npm install**
+- configure server endpoint in src/components/steps/Step8.vue Line 164: **var targetUrl = "http://localhost:5000/api/santa/send_santa"**
+- provide local backend: **TODO**
+- start Vue-server: **vue-cli-service serve**
