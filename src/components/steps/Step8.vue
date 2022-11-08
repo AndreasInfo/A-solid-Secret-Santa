@@ -161,8 +161,9 @@ export default {
           _body: "Noch einmal klicken, und deine Party kann starten.",
           isActive: true,
           yesFunction: () => {
-            var targetUrl = "https://handy-solutions.de/api/santa/send_santa";
-            // var targetUrl = "http://localhost:5000/api/santa/send_santa"; //debugging only
+            var targetUrl =
+              "https://handy-solutions.de/api/a-solid-secret-santa/send_santa";
+            // var targetUrl = "http://localhost:5000/api/a-solid-secret-santa/send_santa"; //debugging only
 
             var targetData = {
               participants: this.participants,
